@@ -1,0 +1,47 @@
+@keyframes example {
+ from {background-color: white;}
+ to {background-color: black;}
+}
+
+body{
+  background-image: url("../../assets/img/ingredients.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment:local;
+}
+a{
+  color: black;
+}
+@keyframes example {
+ from {background-color: white;}
+ to {background-color: black;}
+}
+
+header .navbar .navbar-expand-lg .navbar-default{
+  color: black;
+}
+
+.navbar-item{
+  color : black;
+}
+/* The animation code */
+
+
+/* The element to apply the animation to */
+.jumbotron{
+
+ background-color: black;
+ animation-name: example;
+ animation-duration: 4s;
+}
+
+
+@keyframes rocketslide {
+	 0% {
+		 bottom: -600px;
+	 }
+	 100% {
+		 bottom: 10%;
+		 animation-timing-function: ease-in;
+	 }
+ }
