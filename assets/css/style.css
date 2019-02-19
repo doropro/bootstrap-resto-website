@@ -1,25 +1,13 @@
 .fondacceuil{
   background-image: url("../../assets/img/burger-2811118_1920.jpg");
-  font-size: 30px;
 }
-
-.fondmenu{
-  background-image: url("../../assets/img/fondmenu.jpg");
-}
-body img{
-  opacity: 0.5;
+body{
+  font-size: 25px;
 }
 a{
   color: black;
 }
 
-header .navbar .navbar-expand-lg .navbar-default{
-  color: black;
-}
-
-.navbar-item{
-  color : black;
-}
 /* The animation code */
 @keyframes example{
   0%   {background: white;}
@@ -30,7 +18,7 @@ header .navbar .navbar-expand-lg .navbar-default{
 
 @keyframes example2{
   0%   {top: 0px; height: 0px;}
-  100% {top: 0px; height: 100px;}
+  100% {top: 0px; height: 65px;}
 
 }
 .jumbotron{
@@ -48,7 +36,4 @@ header .navbar .navbar-expand-lg .navbar-default{
 /*effect title*/
 h1{
   text-shadow:0 4px 0 red, 0  0 #ff4045;
-}
-.menu{
-  margin-top: 20%;
 }
