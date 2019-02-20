@@ -1,30 +1,32 @@
+/*page accueil*/
+
 .fondacceuil{
-  background-image: url("../../assets/img/burger-2811118_1920.jpg");
-}
-body{
+  background: url("../../assets/img/burger-2811118_1920.jpg");
   font-size: 25px;
 }
+
+
 a{
-  color: black;
+  color: black;/*nav bar link*/
 }
 
-/* The animation code */
-@keyframes example{
+
+@keyframes example{ /* The animation code */
   0%   {background: white;}
   100% {background: black;}
   from {background-color: white;}
   to {background-color: black;}
 }
 
-@keyframes example2{
+@keyframes example2{ /* The animation code */
   0%   {top: 0px; height: 0px;}
   100% {top: 0px; height: 65px;}
 
 }
 .jumbotron{
-
   animation: example 4s;
   background-color: black;
+  opacity: 1;
 }
 #anim{
   animation: example2 4s;
@@ -33,7 +35,15 @@ a{
 .titre{
   animation: example2 4s;
 }
-/*effect title*/
+
 h1{
-  text-shadow:0 4px 0 red, 0  0 #ff4045;
+  text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
+}
+
+
+h2{
+  text-align: center;
+}
+i{
+  font-size: 15px;
 }
