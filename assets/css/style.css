@@ -1,15 +1,18 @@
 /*page accueil*/
-
+body{
+    font-family: 'Satisfy', cursive;
+    background-color: #EFEFEF;
+    font-size: 25px;
+}
 .fondacceuil{
   background: url("../../assets/img/burger-2811118_1920.jpg");
   font-size: 25px;
+  /*font-family: 'Satisfy', cursive;*/
 }
-
 
 a{
   color: black;/*nav bar link*/
 }
-
 
 @keyframes example{ /* The animation code */
   0%   {background: white;}
@@ -23,27 +26,90 @@ a{
   100% {top: 0px; height: 65px;}
 
 }
-.jumbotron{
+.jumbotron{ /*animation jumbotron*/
   animation: example 4s;
   background-color: black;
-  opacity: 1;
+
 }
-#anim{
+#anim{  /*animation logo*/
   animation: example2 4s;
 }
 
-.titre{
+h1{ /*animation title*/
   animation: example2 4s;
 }
 
 h1{
   text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
+  font-family: 'Kanit', sans-serif;
 }
 
+/*carte*/
+i{
+font-family: 'Dancing Script', cursive;
+}
 
 h2{
   text-align: center;
 }
-i{
+
+i{ /*text description menu*/
   font-size: 15px;
 }
+
+.start{
+  .MsgAlert
+{
+left:40%;
+top:40%;
+position:relative;
+width:200px;
+background:url(gfx/content00.gif) repeat-y;
+cursor:default;
+}
+
+.header
+{
+ margin-top:-20%;
+}
+
+.bottom
+{
+margin-top:3%;
+}
+
+/*footer
+footer{
+  background-color: black;
+}
+/*.MsgAlert p
+{
+margin-top: 0%;
+font-family:Arial;
+font-size:14px;
+ text-align:center;
+color:white;
+padding-left:10px;
+padding-right:10px;
+}
+
+.MsgAlert input
+{
+margin-top: 3%;
+border:none;
+height:24px;
+width:80px;
+background:url(gfx/boutton_valider.gif);
+cursor: pointer;
+}
+
+.MsgAlert input:hover
+{
+margin-top: 3%;
+border:none;
+height:24px;
+width:80px;
+background:url(gfx/boutton_valider_hover.gif);
+cursor:pointer;
+}
+*/
