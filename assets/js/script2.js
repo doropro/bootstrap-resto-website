@@ -1,6 +1,10 @@
-// hello + name user
 
-    var start = 'Bonjour ', userName, end= '!', result;
-    userName = prompt ('entrez votre prénom:');
-    result = start + userName + end;
-    alert (result);
+    (function() {
+
+
+
+      userName = prompt("What's your name ?");
+      document.getElementById("bienvenue").innerHTML = ("Bonjour " + userName + " !");
+
+
+})();

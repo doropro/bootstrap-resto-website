@@ -1,24 +1,20 @@
 /*page accueil*/
-body{
-    font-family: 'Satisfy', cursive;
-    background-color: #EFEFEF;
-    font-size: 25px;
-}
-.fondacceuil{
-  background: url("../../assets/img/burger-2811118_1920.jpg");
-  font-size: 25px;
-  /*font-family: 'Satisfy', cursive;*/
+body, html{
+    font-family: helvetica, cursive;
+    background-color: #fbfbfb;
+    font-size: 20px;
+
 }
 
 a{
   color: black;/*nav bar link*/
 }
 
-@keyframes example{ /* The animation code */
-  0%   {background: white;}
-  100% {background: black;}
-  from {background-color: white;}
-  to {background-color: black;}
+@keyframes example{ /*The animation code*/
+  0%   {background-image: url("../../assets/img/image-3.jpg");}
+  100% {background-image: url("../../assets/img/image-3.jpg");}{background-image: url("../../assets/img/image-3.jpg");}
+  from {background-image: url("../../assets/img/image-3.jpg");}
+  to {background-image: url("../../assets/img/image-3.jpg");}
 }
 
 @keyframes example2{ /* The animation code */
@@ -27,19 +23,24 @@ a{
 
 }
 .jumbotron{ /*animation jumbotron*/
-  animation: example 4s;
-  background-color: black;
-
+  background-image: url("../../assets/img/image-3.jpg");
 }
+#anim2{
+  margin top: -20%
+  animation: example2 4s;
+  animation: example 4s;
+}
+
 #anim{  /*animation logo*/
   animation: example2 4s;
 }
-
-h1{ /*animation title*/
+.anim3{
   animation: example2 4s;
+  text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
+  font-family: 'Kanit', sans-serif;
 }
+h1{ /*animation title*/
 
-h1{
   text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
   font-family: 'Kanit', sans-serif;
 }
@@ -47,69 +48,18 @@ h1{
 /*carte*/
 i{
 font-family: 'Dancing Script', cursive;
+font-size: 15px;
 }
 
 h2{
   text-align: center;
+  margin-bottom: 5%;
 }
 
-i{ /*text description menu*/
-  font-size: 15px;
+adress{
+  background-color: #fcfcfc;
 }
 
-.start{
-  .MsgAlert
-{
-left:40%;
-top:40%;
-position:relative;
-width:200px;
-background:url(gfx/content00.gif) repeat-y;
-cursor:default;
+.navbar{
+  background-color: #fbfbfb;
 }
-
-.header
-{
- margin-top:-20%;
-}
-
-.bottom
-{
-margin-top:3%;
-}
-
-/*footer
-footer{
-  background-color: black;
-}
-/*.MsgAlert p
-{
-margin-top: 0%;
-font-family:Arial;
-font-size:14px;
- text-align:center;
-color:white;
-padding-left:10px;
-padding-right:10px;
-}
-
-.MsgAlert input
-{
-margin-top: 3%;
-border:none;
-height:24px;
-width:80px;
-background:url(gfx/boutton_valider.gif);
-cursor: pointer;
-}
-
-.MsgAlert input:hover
-{
-margin-top: 3%;
-border:none;
-height:24px;
-width:80px;
-background:url(gfx/boutton_valider_hover.gif);
-cursor:pointer;
-}
-*/
