@@ -70,3 +70,8 @@ h2{
 .bg-light{
   background-color: #cac5c1 !important;
 }
+
+.borderchange{
+  border: outset;
+  line-height: 35px;
+}
