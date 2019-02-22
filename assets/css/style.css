@@ -1,9 +1,7 @@
-/*page accueil*/
-body, html{
+body{
     font-family: helvetica, cursive;
     background-color: #fbfbfb;
     font-size: 20px;
-
 }
 
 a{
@@ -25,6 +23,7 @@ a{
 .jumbotron{ /*animation jumbotron*/
   background-image: url("../../assets/img/image-3.jpg");
 }
+
 #anim2{
   margin top: -20%
   animation: example2 4s;
@@ -34,19 +33,21 @@ a{
 #anim{  /*animation logo*/
   animation: example2 4s;
 }
-.anim3{
+
+.anim3{ /*animation title*/
   animation: example2 4s;
   text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
   font-family: 'Kanit', sans-serif;
 }
-h1{ /*animation title*/
+
+h1{ /*effet title sans animation*/
 
   text-shadow:0 4px 0 red, 0  0 #ff4045;/*effect title*/
   font-family: 'Kanit', sans-serif;
 }
 
-/*carte*/
-i{
+
+i{ /*description menu*/
 font-family: 'Dancing Script', cursive;
 font-size: 15px;
 }
@@ -57,5 +58,15 @@ h2{
 }
 
 .navbar{
-  background-color: #fbfbfb;
+  background-color: #cac5c1;
+}
+
+#foot{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bg-light{
+  background-color: #cac5c1 !important;
 }
