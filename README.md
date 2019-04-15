@@ -5,12 +5,13 @@ Produire min 5 pages
 
 ## Date :
 
-Effectué la semaine du 18 au 21 février 2019 en tant que stagiaires chez BeCode
+Effectué la semaine du 18 au 21 février 2019 en tant que stagiaire chez BeCode
 
-## Langages utilisés :
+## Technologies utilisées :
 
 + HTML
-+ CSS (BOOTSTRAP)
++ CSS 
++ BOOTSTRAP
 + JAVASCRIPT
 
 
