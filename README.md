@@ -26,4 +26,4 @@ lien des consignes : <https://github.com/becodeorg/BXL-Johnson-3.9/tree/master/P
 lien github page : <https://doropro.github.io/bootstrap-resto-website/>
 ## Aperçu du site :
 
-![Apercu site](assets/img/Capture du 2019-02-21 16-20-29.png)
+![Apercu site](img/Capture du 2019-02-21 16-20-29.png)
